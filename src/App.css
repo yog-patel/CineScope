@@ -1,0 +1,20 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #c5c5c5;
+}
+
+body{
+    background: #081a25;
+}
+
+.container{
+    margin: 0 8vh;
+}
