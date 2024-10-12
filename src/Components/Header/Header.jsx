@@ -20,7 +20,7 @@ function Header() {
     return (
         <div className="header">
 
-            <div className="logo"><Link to={'/'}>Movie App</Link></div>
+            <div className="logo"><Link to={'/CineScope/'}>Movie App</Link></div>
             <div className="search-bar">
                 <form onSubmit={submitHandler}>
                     <input type={"text"} value={term} placeholder={"Search..."} onChange={(e) =>  setTerm(e.target.value)}/>
