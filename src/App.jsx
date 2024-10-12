@@ -16,8 +16,8 @@ function App() {
             <Header />
             <div className="container">
                 <Routes>
-                    <Route exact path="/" element={<Home/>} />
-                    <Route path="/movie/:imdbID" element={<MovieDetails/>} />
+                    <Route exact path="//CineScope/" element={<Home/>} />
+                    <Route path="/CineScope/movie/:imdbID" element={<MovieDetails/>} />
                     <Route path="*" element={<PageNotFound/>} />
                 </Routes>
             </div>
