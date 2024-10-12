@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 // eslint-disable-next-line react/prop-types
 function MovieCard({ data: movie }) {
     return (
-        <Link to={`/movie/${movie.imdbID}`} >
+        <Link to={`/CineScope/movie/${movie.imdbID}`} >
             <div className={"card-item"}>
                 <div className={"card-inner"}>
                     <div className={"card-top"}>
